@@ -1,0 +1,54 @@
+theme: docuapi
+languageCode: en-us
+baseurl: https://docuapi.netlify.com/
+title: DocuAPI Example Site
+disableKinds: taxonomy
+pygmentsCodefences: yes
+pygmentsCodeFencesGuesSsyntax: no
+pygmentsOptions: ''
+pygmentsStyle: monokai
+pygmentsUseClasses: no
+defaultContentLanguage: en
+markup:
+  goldmark:
+    parser:
+      autoHeadingIDType: github-ascii
+    renderer:
+      unsafe: yes
+module:
+  hugoVersion: {}
+  imports:
+    - path: github.com/bep/docuapi/v2
+params:
+  language_tabs:
+    - key: go
+      name: Go
+    - key: shell
+      name: Shell
+    - key: ruby
+      name: Ruby
+    - key: python
+      name: Python
+    - key: javascript
+      name: Javascript
+  maxMenuDepth: 3
+  search: yes
+languages:
+  en:
+    languageName: English
+    params:
+      toc_footers:
+        - <a href='#'>Sign Up for a Developer Key</a>
+        - Documentation Powered by [DocuAPI](https://github.com/bep/docuapi)
+        - Hugo Theme by [bep](https://github.com/bep)
+    title: DocuAPI Example Site
+    weight: 2
+  nn:
+    languageName: Nynorsk
+    params:
+      toc_footers:
+        - <a href='#'>Registrer deg for ein utviklarnøkkel</a>
+        - Dokumentasjonen er driven av [DocuAPI](https://github.com/bep/docuapi)
+        - Hugo Theme av [bep](https://github.com/bep)
+    title: DocuAPI-døme
+    weight: 1

@@ -1,0 +1,12 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "*",
+    "..\\themes\\github.com\\gohugoio\\hugo-mod-jslibs-dist\\alpinejs\\v3\\packages\\*",
+    "..\\themes\\github.com\\olivernn\\lunr.js\\lunr.js\\*"
+   ]
+  }
+ }
+}
